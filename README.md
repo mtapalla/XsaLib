@@ -14,8 +14,8 @@ Supported apps is work-in-progress.
 * Spectrum Analyzer (SAN)
 * WCDMA
 
-### Examples
-======
+Examples
+-----
 ### Establish connection & query IDN header
 ``` C#
 MXA Mxa = new MXA();
