@@ -16,7 +16,7 @@ Supported apps is work-in-progress.
 
 Examples
 -----
-### Establish connection & query IDN header
+**Establish connection & query IDN header**
 ``` C#
 MXA Mxa = new MXA();
 Mxa.Connect("tcpip0::IpAddress::instr"); // Replace with your instrument's VISA address
@@ -30,7 +30,7 @@ Console.WriteLine(Mxa.IDN.Model);
 Console.WriteLine(Mxa.IDN.Serial);
 ```
 
-### Basic W-CDMA adjacent channel power measurement
+**Basic W-CDMA adjacent channel power measurement**
 ``` C#
 MXA Mxa = new MXA();
 Mxa.Connect("tcpip0::IpAddress::instr"); // Replace with your instrument's VISA address
