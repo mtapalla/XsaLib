@@ -13,6 +13,7 @@ XsaLib
 * CXA (N9000A) *untested*
 
 **Current XSA Apps (Modes) Supported**
+
 Supported apps is work-in-progress.
 * Spectrum Analyzer (SAN)
 * WCDMA
