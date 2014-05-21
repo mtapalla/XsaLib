@@ -1,7 +1,7 @@
 XsaLib
 ======
 
-.NET Library for SCPI remote control of Agilent's X-Series Signal Analyzers (CXA/EXA/MXA/PXA).
+.NET Library for SCPI remote control of Agilent's X-Series Signal Analyzers (XSA).
 
 ### Instruments Supported
 * PXA (N9030A)
