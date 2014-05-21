@@ -9,6 +9,11 @@ XsaLib
 * EXA (N9010A)
 * CXA (N9000A) *untested*
 
+### Current XSA Apps (Modes) Supported
+Supported apps is work-in-progress.
+* Spectrum Analyzer (SAN)
+* WCDMA
+
 ### Example: Establish connection & query IDN header
 
 ``` C#
