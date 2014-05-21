@@ -3,13 +3,16 @@ XsaLib
 
 .NET Library for SCPI remote control of Agilent's X-Series Signal Analyzers (XSA).
 
-#### Instruments Supported
+**Requirements**
+* [Agilent IO Libraries Suite v16.3](http://www.home.agilent.com/en/pd-1985909/io-libraries-suite-162?&cc=US&lc=eng) - Collection of libraries and utility programs. The IO libraries (SICL, VISA, and VISA COM) enable instrument communication for a variety of development environments (Agilent VEE Pro, Microsoft Visual Studio, etc.) that are compatible with GPIB, USB, LAN, RS-232, PXI, AXIe, and VXI test instruments from a variety of manufacturers. Several utility programs help you quickly and easily connect your instruments to your PC.
+
+**Instruments Supported**
 * PXA (N9030A)
 * MXA (N9020A)
 * EXA (N9010A)
 * CXA (N9000A) *untested*
 
-#### Current XSA Apps (Modes) Supported
+**Current XSA Apps (Modes) Supported**
 Supported apps is work-in-progress.
 * Spectrum Analyzer (SAN)
 * WCDMA
