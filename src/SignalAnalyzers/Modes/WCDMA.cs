@@ -21,7 +21,7 @@ using System.Text;
 
 namespace XsaLib
 {
-    internal class WCDMA : Mode
+    public class WCDMA : Mode
     {
         public WCDMA(XsaCore xsa) : base("WCDMA", xsa)
         {

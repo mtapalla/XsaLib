@@ -57,7 +57,6 @@ namespace XsaLib
         }
 
         #region Accessors
-
         public double MechanicalAttenuation
         {
             set
@@ -182,6 +181,18 @@ namespace XsaLib
             get { return triggerMenu; }
         }
         #endregion
+
+        public T GetMode<T>() where T : Mode
+        {
+            try
+            {
+                return (T)Modes[typeof(T)];
+            }
+            catch (Exception ex)
+            {
+                throw new Exception("Mode \"" + typeof(T).Name.ToString() + "\" is not available on this instrument!", ex);
+            }
+        }
 
         public void Reset()
         {

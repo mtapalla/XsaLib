@@ -21,7 +21,7 @@ using System.Text;
 
 namespace XsaLib
 {
-    internal class SpectrumAnalyzer : Mode
+    public class SpectrumAnalyzer : Mode
     {
         public SpectrumAnalyzer(XsaCore xsa) : base("SA", xsa)
         {
